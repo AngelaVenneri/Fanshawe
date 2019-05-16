@@ -1,1 +1,3 @@
 "Place to keep Assignment Tasks"
+
+Assignment Task:  Added two descendant selectors to your last assignment.  This will include adding the selectors to your CSS file and may include changes to your HTML file if two unique descendants are not currently available. 
