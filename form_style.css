@@ -10,15 +10,15 @@ h1 {
 h2 {
 	font-size: 2.0em;
 	font-family: Caliber;
-	color: yellow;
+	color: Brown;
 }
 
 p, legend {
 	color: white;
 }
 
-/*code indicator required field with red asterisk after label*/
-.indicator:after { content:" *"; color: Pink;
+/*code for the indicator a required field with a red asterisk after the label*/
+.indicator:after { content:" *"; color: pink;
 }
 
 /*transition to fit on a smart phone*/
@@ -26,7 +26,7 @@ p, legend {
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
 
-/*copy code as per assigment*/
+/*copy code as per request*/
 *,
 *:before,
 *:after {
@@ -62,3 +62,35 @@ padding: 8px 16px;
 }
 
 }
+/*week 3 assignment*/
+
+/*2 descendant selector*/
+
+div p {
+	color: pink;
+}
+div b{
+	color: green;
+}
+
+/*the child selectors*/
+div.fine > b{
+	color: red;
+	font-size: 1.5em;
+}
+
+div.information > p{
+	color: white;
+}
+
+/*the sibling selector*/
+div.adult h2 ~ p {
+color: blue;
+}
+
+
+/*the adjacent sibling selector*/
+
+div.fees h2 + p {
+	color: orange;
+} 

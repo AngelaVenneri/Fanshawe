@@ -12,25 +12,32 @@
 	<h1>Soccer Player Registration Form</h1>
 	<h2>Summer 2019</h2>
 	
+	<!--one descendant selector-->
+	<div>
+		<p>There is registration at the North London Optimist Community Centre on March 24th. See below form for details.
+		</p>
+		
+	</div>
+	
 		<form>
 
 			<p>
 			<label alt title="required"><b>Name</b>			
-			<span class="indicator">  </span>
+			<span class="indicator">  </span><!--indicated the required field-->
 			<input type="text" name="customer_name" required>
 			</label>
 			</p>
 
 			<p>
 			<label alt title="required"><b>Phone</b>
-			<span class="indicator">  </span>	
+			<span class="indicator">  </span><!--indicated the required field-->	
 			<input type="tel" name="phone_number" required>	
 			</label>
 			</p>
 
 			<p>
 			<label alt title="required"><b>Email</b>	
-			<span class="indicator">  </span>
+			<span class="indicator">  </span><!--indicated the required field-->
 			<input type="email" name="email_address" required>
 			</label>
 			</p>
@@ -90,5 +97,48 @@
 			<p><button>Submit Form</button></p>
 
 		</form>
+<hr>
+
+	
+	<!--one child selector-->
+<div class="fine">
+<b>Please make cheques payable to North London Soccer Club
+ </b>
+</div>
+
+	<!--second descendant selector-->
+	<div>
+	<b>Any NSF cheques will be charged $25!!</b>
+	</div>
+	
+<!--second child selector-->
+	
+	<div class="information">
+<h2>Additional Registration Information</h2>
+<p>The Multi-Player Rebate applies to families with 3 or more players living in the same household.
+Proof of residence may be requested.</p>
+</div>
+
+<!--the sibling selector-->
+
+<div class="adult">
+<h2>Adult Division</h2>
+<p>Players in the Adult Men’s or Women’s Divisions wishing to register a Team MUST contact the
+Registrar</p>
+<p>Each player still needs to be registered individually</p>
+<p>Your team will need a name</p>
+	</div>
+
+		
+	<!--the adjacent sibling selector-->
+
+	<div class="fees">	
+		<h2> Fees by Age Group </h2>
+		<p>Late fees can apply</p>
+		<p>Child (under 12)		$135.00</p>
+		<p>Youth (Age 13-18)	$175.00</p>
+		<p>Adult (19+) 			$185.00</p>
+	</div>
+		
 	</body>
 </html>
